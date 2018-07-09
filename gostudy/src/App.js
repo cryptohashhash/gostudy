@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LeadsTable from "./components/LeadsTable";
+import LeadsTable2 from "./components/LeadsTable2";
 import { RawData } from "./components/RawData";
 
 import "./App.css";
@@ -31,7 +32,8 @@ class App extends Component {
   render() {
     return (
       <main>
-        {/* {!!this.state.leads && <RawData leads={this.state.leads} />} */}
+        {/* <RawData leads={this.state.leads} /> */}
+        {/* {!!this.state.leads && <LeadsTable2 leads={this.state.leads} />} */}
         <LeadsTable leads={this.state.leads} />
       </main>
     );

@@ -1,5 +1,5 @@
 import React from "react";
 
-export const RawData = ({ leads }) => {
+export const RawData = ({ ...leads }) => {
   return leads;
 };
