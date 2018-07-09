@@ -33,8 +33,8 @@ class App extends Component {
     return (
       <main>
         {/* <RawData leads={this.state.leads} /> */}
-        {/* {!!this.state.leads && <LeadsTable2 leads={this.state.leads} />} */}
-        <LeadsTable leads={this.state.leads} />
+        {!!this.state.leads && <LeadsTable2 leads={this.state.leads} />}
+        {/* <LeadsTable leads={this.state.leads} /> */}
       </main>
     );
   }
